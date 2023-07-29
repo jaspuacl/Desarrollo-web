@@ -1,0 +1,83 @@
+*{
+    box-sizing:border-box
+}
+
+body{
+    background-color: rgb(253, 253, 253);
+    margin: 2;
+}
+
+.container{
+    /* border: 3px solid red; */
+    max-width: 90%;
+    margin: center;
+    margin-top: 20px;
+}
+
+.form{
+    /* border: 3px solid green; */
+    border-top: 2px solid black;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto; 
+    margin-top: 10px;
+    background: rgba(1, 80, 88, 0.39);
+    
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.send input{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 25px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.centrado{
+    text-align: center;
+    width: 90%;
+    padding: 15px 50px;
+}
+ 
+#tarjeta{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+#imagen{
+    text-align: center;
+}
+
+img{
+    width: 15%;
+    height: 20%;
+}
+
+.contenedor{
+    border-top: 2px solid black;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto; 
+    margin-top: 10px;
+    background: rgb(32, 85, 199);
+}
+
+#confirmars{
+    text-align: center ;
+}
